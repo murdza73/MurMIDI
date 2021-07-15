@@ -1,0 +1,96 @@
+[MAIN]
+Languages=ENG HUN SER CRO ROM BUL SLO
+OS_SKU=Professional
+SystemType=AMD64
+csup=12-23-2011
+Module=OS
+generaloobe=done
+
+[BASE]
+Project=B7212XS00011
+Base=B7212XS00011
+Language=ENG
+OS=W7
+sku=Professional
+Edition=AMD64 
+sp=SP1 
+csup=02-11-2011
+[BIM]
+Project=M7212XS00021
+Language=MSE
+OS=W7
+sku=Professional
+sp=SP1 
+PI_Automat_OS_Version=6.1.7601
+PI_Automat_PE_Project=Windows7_AutomatCDv2_SP1_Ping
+PI_Automat_Mainpath=\\Sload\Ping\Automat\Auto_process
+PI_Automat_Version=Automat_1.3.0.0
+PI_Automat_Process=w7_genmaster
+
+[PREINSTALL BASE]
+KB2588516=KB2588516:Vulnerability in TCP/IP Could Allow Remote Code Execution
+KB2598845=KB2598845:This Compatibility View List update helps make Web sites that are designed for older browsers look better in Internet Explorer
+KB2601626=KB2601626:Vulnerability in Active Directory Could Allow Elevation of Privilege
+KB2607576=KB2607576:Install this update to resolve issues in Windows
+KB2617657=KB2617657:Vulnerability in Windows Kernel-Mode Drivers Could Allow Denial of Service
+KB2564958=KB2564958:Vulnerability in Microsoft Active Accessibility Could Allow Remote Code Execution
+KB2579686=KB2579686:Vulnerability in Windows Media Center Could Allow Remote Code Execution
+KB2586448=KB2586448:Cumulative Security Update for Internet Explorer
+KB2570791=KB2570791:Install this update to resolve issues caused by revised daylight saving time and time zone laws in several countries
+KB2570947=KB2570947:Vulnerability in Windows Components Could Allow Remote Code Execution
+KB2616676=KB2616676:Install this update to resolve an issue which requires an update to the certificate revocation list on Windows systems and to k
+KB2536276-V2=KB2536276-V2:Vulnerability in SMB Client Could Allow Remote Code Execution
+KB2556532=KB2556532:Vulnerability in Windows Kernel Could Allow Denial of Service
+KB2560656=KB2560656:Vulnerability in Data Access Components Could Allow Remote Code Execution
+KB2562937=KB2562937:Security issues have been identified in ActiveX controls that could allow an attacker to compromise a system running Microsoft
+KB2563227=KB2563227:Install this update to resolve performance and reliability issues in Windows
+KB2567680=KB2567680:Vulnerability in Windows Client/Server Run-time Subsystem Could Allow Elevation of Privilege
+KB2545698=KB2545698:An update to resolve text displayed in some core fonts appears blurred in IE9
+KB2547666=KB2547666:An update to allow deletion of long URLs from the browsing history in IE.
+KB2552343=KB2552343:Time-out error occurs when you install a Windows Update package that contains drivers.
+KB2503665=KB2503665:Vulnerability in Ancillary Function Driver Could Allow Elevation of Privilege
+KB2536275=KB2536275:Vulnerability in SMB Server Could Allow Denial of Service
+KB2541014=KB2541014:Hibernation does not work or memory dump file is not created after you install Windows 7 or Windows Server 2008 R2 Service Pack
+KB2544521=KB2544521:Vulnerability in Vector Markup Language Could Allow Remote Code Execution
+KB2544893=KB2544893:Vulnerability in MHTML Could Allow Information Disclosure
+KB982018-V3=This is a reliability update
+KB2492386=KB2492386:Install this update to resolve a set of known application compatibility issues with Windows
+KB2506928-V2=KB2506928-V2:Install this update to resolve issues in Windows
+KB2515325=This is a reliability update
+KB2529073=Install this update to resolve issues in Windows
+KB2509553=KB2509553:Vulnerability in DNS Resolution Could Allow Remote Code Execution
+KB2491683=KB2491683:Vulnerability in Windows Fax Cover Page Editor Could Allow Remote Code Execution
+KB2506014=KB2506014: An issue has been identified that could allow a user with administrative permissions to load an unsigned driver
+KB2506212=KB2506212: Vulnerability in Windows Fax Cover Page Editor Could Allow Remote Code Execution
+KB2507618=KB2507618: Vulnerability in the OpenType Compact Font Format (CFF) Driver Could Allow Remote Code Execution
+KB2510531=KB2510531:Vulnerability in JScript and VBScript Scripting Engines Could Allow Remote Code Execution
+KB2511455=KB2511455:Vulnerabilities in SMB Client Could Allow Remote Code Execution
+KB2484033=KB2484033: Prerequisit for IE9
+KB2488113=KB2488113: Prerequisit for IE9 An application that uses Direct2D or Direct3D may crash in Windows 7 or in Windows Server 2008 R2
+KB2505438=KB2505438: Prerequisit for IE9 Slow performance in applications that use the DirectWrite API on a computer that is running Windows 7 or Windows Server 2008 R2
+KB2479943=KB2479943:Vulnerabilities in Windows Media Could Allow Remote Code Execution
+KB2425227=KB2425227:Vulnerabilities in Kerberos Could Allow Elevation of Privilege
+KB958488-v6001=KB958488-v6001: prerequisit for Dot net4
+
+
+[WinRE]
+Languages=ENG
+csup=11-13-2012
+SystemType=x86 AMD64
+Module=WinRE
+Project=W7P13XZ00055
+
+[DRIVERS]
+Languages=ALL
+PingVersion=PING 2.2.0.1 
+csup=02-21-2013
+Module=DRIVERS
+Project=D7042KZ00018
+
+[ADDON_01]
+Languages=MSE
+PingVersion=PING 2.2.0.1 
+csup=09-13-2012
+Module=ADDON_01
+Project=A7013XS06011
+
